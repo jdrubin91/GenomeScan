@@ -1,0 +1,12 @@
+
+The following have been reloaded with a version change:
+  1) meme/5.0.3 => meme/4.12.0
+
+processed: 0.0%processed: 0.1%processed: 0.2%processed: 0.6%processed: 1.9%processed: 3.0%processed: 4.3%processed: 5.6%processed: 7.0%processed: 7.9%processed: 9.3%processed: 10.4%processed: 11.5%processed: 12.7%processed: 14.0%processed: 15.1%processed: 16.7%processed: 18.0%processed: 19.2%processed: 20.5%processed: 21.7%processed: 23.4%processed: 24.5%processed: 25.9%processed: 27.1%processed: 28.5%processed: 29.7%processed: 31.2%processed: 32.1%processed: 33.5%processed: 34.5%processed: 35.9%processed: 37.0%processed: 38.4%processed: 39.9%processed: 41.1%processed: 43.0%processed: 44.3%processed: 45.6%processed: 47.0%processed: 48.1%processed: 49.1%processed: 50.4%processed: 51.0%processed: 52.2%processed: 53.3%processed: 54.6%processed: 55.5%processed: 57.0%processed: 58.2%processed: 59.7%processed: 60.6%processed: 62.0%processed: 63.1%processed: 64.5%processed: 65.4%processed: 66.8%processed: 67.6%processed: 69.1%processed: 70.1%processed: 71.9%processed: 73.0%processed: 74.6%processed: 76.2%processed: 77.4%processed: 78.9%processed: 79.7%processed: 81.1%processed: 82.5%processed: 83.7%processed: 84.9%processed: 86.2%processed: 87.4%processed: 88.5%processed: 89.8%processed: 91.1%processed: 91.9%processed: 93.2%processed: 94.0%processed: 95.3%processed: 96.5%processed: 97.8%processed: 99.0%processed: 100.0%[KTraceback (most recent call last):
+  File "/opt/python/3.6.3/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/opt/python/3.6.3/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/scratch/Users/joru1876/GenomeScan/GenomeScan/__main__.py", line 121, in <module>
+    running_jobs.append(subprocess.check_output(sbatch_command).strip('\n').split()[-1])
+TypeError: a bytes-like object is required, not 'str'
